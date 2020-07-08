@@ -324,27 +324,6 @@ body{
     }
   
     /* our-teacher */
-    /* Gallery */
-    .Gallery{
-        padding: 7% 0%;
-    }
-    .gl-wrapper img {
-            filter:brightness(30%);
-            transition: .3s;
-            width: 100%;
-            margin: 0px;
-            padding: 0px;
-    }
-    .gl-wrapper {
-        margin: 0px;
-        padding: 0px;
-    }
-    .gl-wrapper img:hover{
-            filter:brightness(100%);
-            transition: .3s;
-            cursor: pointer;
-    }
-    /* Gallery */
     /* testimonial */
     .testimonial{
         width: 100%;
@@ -377,52 +356,7 @@ body{
         color: dimgray;
     }
     /* testimonial */
-    /* contect with us */
-    .contect{
-        background: linear-gradient(rgba(15, 94, 156, 0.5), rgba(15, 94, 156, 0.5)), url(" https://image.freepik.com/free-photo/business-teamwork-join-hands-together-business-teamwork-concept_1150-1804.jpg ");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-       background-color: #ddd;
-        padding-top: 100px;
-        padding-bottom: 100px;
-        text-align: center;
-        margin: 0 auto;
-    }
-    .title{
-        font-weight: 700 !important;
-        color: #ddd;
-    }
-    .title p {
-        margin: 0 auto;
-        max-width: 500px;
-        margin-bottom: 5rem;
-        color: #ddd !important;
-        font-weight: 500;
-    }
-    .btn-custom {
-        padding: 12px 28px;
-        text-align: center;
-        width: 180px;
-        height: 43px;
-        background: #21B573;
-        border-radius: 3px;
-        font-weight: bold;
-        font-size: 16px;
-        line-height: 19px;
-        font-family: 'Raleway', sans-serif;
-         color: #FFFFFF;
-    }
-    .btn-custom:hover {
-        color: white;
-    }
-    .call-us{
-        color: #ddd ;
-    }
-    .call-us:hover{
-        color:  #ddd;
-    }
-    /* contect wiht us  */
+
     /* footer */
     footer {
         background-color: #282531;
@@ -450,7 +384,10 @@ body{
         max-width: 500px;
     }
   
-    
+    .footer-finish{
+        text-align: center;
+        margin-top: 40px;
+    }
     /* footer */
     /* media quary */
     @media only screen and (max-width: 992px) {
